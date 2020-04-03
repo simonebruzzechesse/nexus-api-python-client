@@ -1,4 +1,4 @@
-# openapi_client.SecurityManagementUsersApi
+# nexus_api_python_client.SecurityManagementUsersApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -21,14 +21,14 @@ Change a user's password.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementUsersApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementUsersApi(api_client)
     user_id = 'user_id_example' # str | The userid the request should apply to.
 body = 'body_example' # str | The new password to use. (optional)
 
@@ -78,15 +78,15 @@ Create a new user in the default source.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementUsersApi(api_client)
-    body = openapi_client.ApiCreateUser() # ApiCreateUser | A representation of the user to create. (optional)
+    api_instance = nexus_api_python_client.SecurityManagementUsersApi(api_client)
+    body = nexus_api_python_client.ApiCreateUser() # ApiCreateUser | A representation of the user to create. (optional)
 
     try:
         # Create a new user in the default source.
@@ -134,14 +134,14 @@ Delete a user.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementUsersApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementUsersApi(api_client)
     user_id = 'user_id_example' # str | The userid the request should apply to.
 
     try:
@@ -189,14 +189,14 @@ Retrieve a list of users. Note if the source is not 'default' the response is li
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementUsersApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementUsersApi(api_client)
     user_id = 'user_id_example' # str | An optional term to search userids for. (optional)
 source = 'source_example' # str | An optional user source to restrict the search to. (optional)
 
@@ -247,16 +247,16 @@ Update an existing user.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementUsersApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementUsersApi(api_client)
     user_id = 'user_id_example' # str | The userid the request should apply to.
-body = openapi_client.ApiUser() # ApiUser | A representation of the user to update. (optional)
+body = nexus_api_python_client.ApiUser() # ApiUser | A representation of the user to update. (optional)
 
     try:
         # Update an existing user.

@@ -1,4 +1,4 @@
-# openapi_client.SecurityManagementRolesApi
+# nexus_api_python_client.SecurityManagementRolesApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -21,15 +21,15 @@ Create role
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementRolesApi(api_client)
-    body = openapi_client.RoleXORequest() # RoleXORequest | A role configuration
+    api_instance = nexus_api_python_client.SecurityManagementRolesApi(api_client)
+    body = nexus_api_python_client.RoleXORequest() # RoleXORequest | A role configuration
 
     try:
         # Create role
@@ -76,14 +76,14 @@ Delete role
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementRolesApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementRolesApi(api_client)
     id = 'id_example' # str | The id of the role to delete
 
     try:
@@ -130,14 +130,14 @@ Get role
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementRolesApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementRolesApi(api_client)
     id = 'id_example' # str | The id of the role to get
 source = 'default' # str | The id of the user source to filter the roles by. Available sources can be fetched using the 'User Sources' endpoint. (optional) (default to 'default')
 
@@ -189,14 +189,14 @@ List roles
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementRolesApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementRolesApi(api_client)
     source = 'source_example' # str | The id of the user source to filter the roles by, if supplied. Otherwise roles from all user sources will be returned. (optional)
 
     try:
@@ -245,16 +245,16 @@ Update role
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementRolesApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementRolesApi(api_client)
     id = 'id_example' # str | The id of the role to update
-body = openapi_client.RoleXORequest() # RoleXORequest | A role configuration
+body = nexus_api_python_client.RoleXORequest() # RoleXORequest | A role configuration
 
     try:
         # Update role

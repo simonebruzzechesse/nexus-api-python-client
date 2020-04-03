@@ -1,4 +1,4 @@
-# openapi_client.AssetsApi
+# nexus_api_python_client.AssetsApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -19,14 +19,14 @@ Delete a single asset
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AssetsApi(api_client)
+    api_instance = nexus_api_python_client.AssetsApi(api_client)
     id = 'id_example' # str | Id of the asset to delete
 
     try:
@@ -75,14 +75,14 @@ Get a single asset
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AssetsApi(api_client)
+    api_instance = nexus_api_python_client.AssetsApi(api_client)
     id = 'id_example' # str | Id of the asset to get
 
     try:
@@ -132,14 +132,14 @@ List assets
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AssetsApi(api_client)
+    api_instance = nexus_api_python_client.AssetsApi(api_client)
     repository = 'repository_example' # str | Repository from which you would like to retrieve assets.
 continuation_token = 'continuation_token_example' # str | A token returned by a prior request. If present, the next page of results are returned (optional)
 

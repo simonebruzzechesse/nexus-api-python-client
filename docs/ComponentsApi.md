@@ -1,4 +1,4 @@
-# openapi_client.ComponentsApi
+# nexus_api_python_client.ComponentsApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -20,14 +20,14 @@ Delete a single component
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ComponentsApi(api_client)
+    api_instance = nexus_api_python_client.ComponentsApi(api_client)
     id = 'id_example' # str | ID of the component to delete
 
     try:
@@ -76,14 +76,14 @@ Get a single component
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ComponentsApi(api_client)
+    api_instance = nexus_api_python_client.ComponentsApi(api_client)
     id = 'id_example' # str | ID of the component to retrieve
 
     try:
@@ -133,14 +133,14 @@ List components
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ComponentsApi(api_client)
+    api_instance = nexus_api_python_client.ComponentsApi(api_client)
     repository = 'repository_example' # str | Repository from which you would like to retrieve components
 continuation_token = 'continuation_token_example' # str | A token returned by a prior request. If present, the next page of results are returned (optional)
 
@@ -191,14 +191,14 @@ Upload a single component
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ComponentsApi(api_client)
+    api_instance = nexus_api_python_client.ComponentsApi(api_client)
     repository = 'repository_example' # str | Name of the repository to which you would like to upload the component
 yum_directory = 'yum_directory_example' # str | yum Directory (optional)
 yum_asset = '/path/to/file' # file | yum Asset  (optional)

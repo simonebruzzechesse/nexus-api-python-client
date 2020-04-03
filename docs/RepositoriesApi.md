@@ -1,4 +1,4 @@
-# openapi_client.RepositoriesApi
+# nexus_api_python_client.RepositoriesApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -17,14 +17,14 @@ List repositories
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoriesApi(api_client)
+    api_instance = nexus_api_python_client.RepositoriesApi(api_client)
     
     try:
         # List repositories

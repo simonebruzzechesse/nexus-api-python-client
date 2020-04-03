@@ -1,4 +1,4 @@
-# openapi_client.TasksApi
+# nexus_api_python_client.TasksApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -20,14 +20,14 @@ Get a single task by id
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.TasksApi(api_client)
+    api_instance = nexus_api_python_client.TasksApi(api_client)
     id = 'id_example' # str | Id of the task to get
 
     try:
@@ -75,14 +75,14 @@ List tasks
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.TasksApi(api_client)
+    api_instance = nexus_api_python_client.TasksApi(api_client)
     type = 'type_example' # str | Type of the tasks to get (optional)
 
     try:
@@ -129,14 +129,14 @@ Run task
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.TasksApi(api_client)
+    api_instance = nexus_api_python_client.TasksApi(api_client)
     id = 'id_example' # str | Id of the task to run
 
     try:
@@ -184,14 +184,14 @@ Stop task
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.TasksApi(api_client)
+    api_instance = nexus_api_python_client.TasksApi(api_client)
     id = 'id_example' # str | Id of the task to stop
 
     try:

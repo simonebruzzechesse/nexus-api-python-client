@@ -1,4 +1,4 @@
-# openapi_client.SecurityManagementRealmsApi
+# nexus_api_python_client.SecurityManagementRealmsApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -19,14 +19,14 @@ List the active realm IDs in order
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementRealmsApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementRealmsApi(api_client)
     
     try:
         # List the active realm IDs in order
@@ -69,14 +69,14 @@ List the available realms
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementRealmsApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementRealmsApi(api_client)
     
     try:
         # List the available realms
@@ -119,14 +119,14 @@ Set the active security realms in the order they should be used
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementRealmsApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementRealmsApi(api_client)
     body = ['body_example'] # list[str] | The realm IDs (optional)
 
     try:

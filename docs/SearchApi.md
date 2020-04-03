@@ -1,4 +1,4 @@
-# openapi_client.SearchApi
+# nexus_api_python_client.SearchApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -19,14 +19,14 @@ Search components
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SearchApi(api_client)
+    api_instance = nexus_api_python_client.SearchApi(api_client)
     continuation_token = 'continuation_token_example' # str | A token returned by a prior request. If present, the next page of results are returned (optional)
 sort = 'sort_example' # str | The field to sort the results against, if left empty, a sort based on match weight will be used. (optional)
 direction = 'direction_example' # str | The direction to sort records in, defaults to ascending ('asc') for all sort fields, except version, which defaults to descending ('desc') (optional)
@@ -143,14 +143,14 @@ Returns a 302 Found with location header field set to download URL. Unless a sor
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SearchApi(api_client)
+    api_instance = nexus_api_python_client.SearchApi(api_client)
     sort = 'sort_example' # str | The field to sort the results against, if left empty and more than 1 result is returned, the request will fail. (optional)
 direction = 'direction_example' # str | The direction to sort records in, defaults to ascending ('asc') for all sort fields, except version, which defaults to descending ('desc') (optional)
 timeout = 56 # int | How long to wait for search results in seconds. If this value is not provided, the system default timeout will be used. (optional)
@@ -263,14 +263,14 @@ Search assets
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SearchApi(api_client)
+    api_instance = nexus_api_python_client.SearchApi(api_client)
     continuation_token = 'continuation_token_example' # str | A token returned by a prior request. If present, the next page of results are returned (optional)
 sort = 'sort_example' # str | The field to sort the results against, if left empty, a sort based on match weight will be used. (optional)
 direction = 'direction_example' # str | The direction to sort records in, defaults to ascending ('asc') for all sort fields, except version, which defaults to descending ('desc') (optional)

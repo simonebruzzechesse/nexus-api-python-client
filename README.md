@@ -23,7 +23,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import openapi_client
+import nexus_api_python_client
 ```
 
 ### Setuptools
@@ -37,7 +37,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import openapi_client
+import nexus_api_python_client
 ```
 
 ## Getting Started
@@ -47,18 +47,18 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 
 # Defining host is optional and default to http://localhost/service/rest
 configuration.host = "http://localhost/service/rest"
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nexus_api_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.BlobStoreApi(api_client)
-    body = openapi_client.S3BlobStoreApiModel() # S3BlobStoreApiModel |  (optional)
+    api_instance = nexus_api_python_client.BlobStoreApi(api_client)
+    body = nexus_api_python_client.S3BlobStoreApiModel() # S3BlobStoreApiModel |  (optional)
 
     try:
         # Create an S3 blob store

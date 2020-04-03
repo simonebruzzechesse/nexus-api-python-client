@@ -7,8 +7,8 @@ import re  # noqa: F401
 # python 2 and python 3 compatibility library
 import six
 
-from openapi_client.api_client import ApiClient
-from openapi_client.exceptions import (
+from nexus_api_python_client.api_client import ApiClient
+from nexus_api_python_client.exceptions import (
     ApiTypeError,
     ApiValueError
 )

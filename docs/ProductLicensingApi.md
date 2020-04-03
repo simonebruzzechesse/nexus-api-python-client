@@ -1,4 +1,4 @@
-# openapi_client.ProductLicensingApi
+# nexus_api_python_client.ProductLicensingApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -19,14 +19,14 @@ Get the current license status.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ProductLicensingApi(api_client)
+    api_instance = nexus_api_python_client.ProductLicensingApi(api_client)
     
     try:
         # Get the current license status.
@@ -69,14 +69,14 @@ Uninstall license if present.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ProductLicensingApi(api_client)
+    api_instance = nexus_api_python_client.ProductLicensingApi(api_client)
     
     try:
         # Uninstall license if present.
@@ -120,14 +120,14 @@ Server must be restarted to take effect
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ProductLicensingApi(api_client)
+    api_instance = nexus_api_python_client.ProductLicensingApi(api_client)
     body = None # object |  (optional)
 
     try:

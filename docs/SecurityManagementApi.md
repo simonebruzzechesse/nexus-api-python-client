@@ -1,4 +1,4 @@
-# openapi_client.SecurityManagementApi
+# nexus_api_python_client.SecurityManagementApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -17,14 +17,14 @@ Retrieve a list of the available user sources.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementApi(api_client)
     
     try:
         # Retrieve a list of the available user sources.

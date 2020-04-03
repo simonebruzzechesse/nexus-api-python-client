@@ -1,4 +1,4 @@
-# openapi_client.SecurityManagementLDAPApi
+# nexus_api_python_client.SecurityManagementLDAPApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -22,14 +22,14 @@ Change LDAP server order
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementLDAPApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementLDAPApi(api_client)
     body = ['body_example'] # list[str] | Ordered list of LDAP server names (optional)
 
     try:
@@ -77,15 +77,15 @@ Create LDAP server
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementLDAPApi(api_client)
-    body = openapi_client.CreateLdapServerXo() # CreateLdapServerXo |  (optional)
+    api_instance = nexus_api_python_client.SecurityManagementLDAPApi(api_client)
+    body = nexus_api_python_client.CreateLdapServerXo() # CreateLdapServerXo |  (optional)
 
     try:
         # Create LDAP server
@@ -132,14 +132,14 @@ Delete LDAP server
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementLDAPApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementLDAPApi(api_client)
     name = 'name_example' # str | Name of the LDAP server to delete
 
     try:
@@ -188,14 +188,14 @@ Get LDAP server
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementLDAPApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementLDAPApi(api_client)
     name = 'name_example' # str | Name of the LDAP server to retrieve
 
     try:
@@ -244,14 +244,14 @@ List LDAP servers
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementLDAPApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementLDAPApi(api_client)
     
     try:
         # List LDAP servers
@@ -295,16 +295,16 @@ Update LDAP server
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementLDAPApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementLDAPApi(api_client)
     name = 'name_example' # str | Name of the LDAP server to update
-body = openapi_client.UpdateLdapServerXo() # UpdateLdapServerXo | Updated values of LDAP server (optional)
+body = nexus_api_python_client.UpdateLdapServerXo() # UpdateLdapServerXo | Updated values of LDAP server (optional)
 
     try:
         # Update LDAP server

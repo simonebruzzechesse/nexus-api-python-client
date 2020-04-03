@@ -1,4 +1,4 @@
-# openapi_client.SecurityCertificatesApi
+# nexus_api_python_client.SecurityCertificatesApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -20,14 +20,14 @@ Add a certificate to the trust store.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityCertificatesApi(api_client)
+    api_instance = nexus_api_python_client.SecurityCertificatesApi(api_client)
     body = 'body_example' # str | The certificate to add encoded in PEM format (optional)
 
     try:
@@ -76,14 +76,14 @@ Retrieve a list of certificates added to the trust store.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityCertificatesApi(api_client)
+    api_instance = nexus_api_python_client.SecurityCertificatesApi(api_client)
     
     try:
         # Retrieve a list of certificates added to the trust store.
@@ -127,14 +127,14 @@ Remove a certificate in the trust store.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityCertificatesApi(api_client)
+    api_instance = nexus_api_python_client.SecurityCertificatesApi(api_client)
     id = 'id_example' # str | The id of the certificate that should be removed.
 
     try:
@@ -180,14 +180,14 @@ Helper method to retrieve certificate details from a remote system.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityCertificatesApi(api_client)
+    api_instance = nexus_api_python_client.SecurityCertificatesApi(api_client)
     host = 'host_example' # str | The remote system's host name
 port = 443 # int | The port on the remote system to connect to (optional) (default to 443)
 protocol_hint = 'protocol_hint_example' # str | An optional hint of the protocol to try for the connection (optional)

@@ -1,4 +1,4 @@
-# openapi_client.BlobStoreApi
+# nexus_api_python_client.BlobStoreApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -25,15 +25,15 @@ Create an S3 blob store
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.BlobStoreApi(api_client)
-    body = openapi_client.S3BlobStoreApiModel() # S3BlobStoreApiModel |  (optional)
+    api_instance = nexus_api_python_client.BlobStoreApi(api_client)
+    body = nexus_api_python_client.S3BlobStoreApiModel() # S3BlobStoreApiModel |  (optional)
 
     try:
         # Create an S3 blob store
@@ -80,15 +80,15 @@ Create a file blob store
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.BlobStoreApi(api_client)
-    body = openapi_client.FileBlobStoreApiCreateRequest() # FileBlobStoreApiCreateRequest |  (optional)
+    api_instance = nexus_api_python_client.BlobStoreApi(api_client)
+    body = nexus_api_python_client.FileBlobStoreApiCreateRequest() # FileBlobStoreApiCreateRequest |  (optional)
 
     try:
         # Create a file blob store
@@ -133,14 +133,14 @@ Delete a blob store by name
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.BlobStoreApi(api_client)
+    api_instance = nexus_api_python_client.BlobStoreApi(api_client)
     name = 'name_example' # str | The name of the blob store to delete
 
     try:
@@ -186,14 +186,14 @@ Fetch a S3 blob store configuration
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.BlobStoreApi(api_client)
+    api_instance = nexus_api_python_client.BlobStoreApi(api_client)
     name = 'name_example' # str | Name of the blob store configuration to fetch
 
     try:
@@ -242,14 +242,14 @@ Get a file blob store configuration by name
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.BlobStoreApi(api_client)
+    api_instance = nexus_api_python_client.BlobStoreApi(api_client)
     name = 'name_example' # str | The name of the file blob store to read
 
     try:
@@ -296,14 +296,14 @@ List the blob stores
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.BlobStoreApi(api_client)
+    api_instance = nexus_api_python_client.BlobStoreApi(api_client)
     
     try:
         # List the blob stores
@@ -346,14 +346,14 @@ Get quota status for a given blob store
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.BlobStoreApi(api_client)
+    api_instance = nexus_api_python_client.BlobStoreApi(api_client)
     id = 'id_example' # str | 
 
     try:
@@ -400,16 +400,16 @@ Update an S3 blob store configuration
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.BlobStoreApi(api_client)
+    api_instance = nexus_api_python_client.BlobStoreApi(api_client)
     name = 'name_example' # str | Name of the blob store to update
-body = openapi_client.S3BlobStoreApiModel() # S3BlobStoreApiModel |  (optional)
+body = nexus_api_python_client.S3BlobStoreApiModel() # S3BlobStoreApiModel |  (optional)
 
     try:
         # Update an S3 blob store configuration
@@ -458,16 +458,16 @@ Update a file blob store configuration by name
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.BlobStoreApi(api_client)
+    api_instance = nexus_api_python_client.BlobStoreApi(api_client)
     name = 'name_example' # str | The name of the file blob store to update
-body = openapi_client.FileBlobStoreApiUpdateRequest() # FileBlobStoreApiUpdateRequest |  (optional)
+body = nexus_api_python_client.FileBlobStoreApiUpdateRequest() # FileBlobStoreApiUpdateRequest |  (optional)
 
     try:
         # Update a file blob store configuration by name

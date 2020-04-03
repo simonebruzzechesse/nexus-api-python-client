@@ -1,4 +1,4 @@
-# openapi_client.RepositoryManagementApi
+# nexus_api_python_client.RepositoryManagementApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -44,15 +44,15 @@ Method | HTTP request | Description
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
-    body = openapi_client.AptHostedRepositoryApiRequest() # AptHostedRepositoryApiRequest |  (optional)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
+    body = nexus_api_python_client.AptHostedRepositoryApiRequest() # AptHostedRepositoryApiRequest |  (optional)
 
     try:
         api_instance.create_repository1(body=body)
@@ -96,15 +96,15 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
-    body = openapi_client.DockerHostedRepositoryApiRequest() # DockerHostedRepositoryApiRequest |  (optional)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
+    body = nexus_api_python_client.DockerHostedRepositoryApiRequest() # DockerHostedRepositoryApiRequest |  (optional)
 
     try:
         api_instance.create_repository10(body=body)
@@ -148,15 +148,15 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
-    body = openapi_client.GitLfsHostedRepositoryApiRequest() # GitLfsHostedRepositoryApiRequest |  (optional)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
+    body = nexus_api_python_client.GitLfsHostedRepositoryApiRequest() # GitLfsHostedRepositoryApiRequest |  (optional)
 
     try:
         api_instance.create_repository11(body=body)
@@ -200,15 +200,15 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
-    body = openapi_client.AptProxyRepositoryApiRequest() # AptProxyRepositoryApiRequest |  (optional)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
+    body = nexus_api_python_client.AptProxyRepositoryApiRequest() # AptProxyRepositoryApiRequest |  (optional)
 
     try:
         api_instance.create_repository2(body=body)
@@ -252,15 +252,15 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
-    body = openapi_client.GolangGroupRepositoryApiRequest() # GolangGroupRepositoryApiRequest |  (optional)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
+    body = nexus_api_python_client.GolangGroupRepositoryApiRequest() # GolangGroupRepositoryApiRequest |  (optional)
 
     try:
         api_instance.create_repository3(body=body)
@@ -304,15 +304,15 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
-    body = openapi_client.GolangProxyRepositoryApiRequest() # GolangProxyRepositoryApiRequest |  (optional)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
+    body = nexus_api_python_client.GolangProxyRepositoryApiRequest() # GolangProxyRepositoryApiRequest |  (optional)
 
     try:
         api_instance.create_repository4(body=body)
@@ -356,15 +356,15 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
-    body = openapi_client.BowerGroupRepositoryApiRequest() # BowerGroupRepositoryApiRequest |  (optional)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
+    body = nexus_api_python_client.BowerGroupRepositoryApiRequest() # BowerGroupRepositoryApiRequest |  (optional)
 
     try:
         api_instance.create_repository5(body=body)
@@ -408,15 +408,15 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
-    body = openapi_client.BowerProxyRepositoryApiRequest() # BowerProxyRepositoryApiRequest |  (optional)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
+    body = nexus_api_python_client.BowerProxyRepositoryApiRequest() # BowerProxyRepositoryApiRequest |  (optional)
 
     try:
         api_instance.create_repository6(body=body)
@@ -460,15 +460,15 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
-    body = openapi_client.BowerHostedRepositoryApiRequest() # BowerHostedRepositoryApiRequest |  (optional)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
+    body = nexus_api_python_client.BowerHostedRepositoryApiRequest() # BowerHostedRepositoryApiRequest |  (optional)
 
     try:
         api_instance.create_repository7(body=body)
@@ -512,15 +512,15 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
-    body = openapi_client.DockerGroupRepositoryApiRequest() # DockerGroupRepositoryApiRequest |  (optional)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
+    body = nexus_api_python_client.DockerGroupRepositoryApiRequest() # DockerGroupRepositoryApiRequest |  (optional)
 
     try:
         api_instance.create_repository8(body=body)
@@ -564,15 +564,15 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
-    body = openapi_client.DockerProxyRepositoryApiRequest() # DockerProxyRepositoryApiRequest |  (optional)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
+    body = nexus_api_python_client.DockerProxyRepositoryApiRequest() # DockerProxyRepositoryApiRequest |  (optional)
 
     try:
         api_instance.create_repository9(body=body)
@@ -616,14 +616,14 @@ Delete repository of any format
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
     repository_name = 'repository_name_example' # str | Name of the repository to delete
 
     try:
@@ -672,14 +672,14 @@ Disable Repository Health Check. Proxy repositories only.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
     repository_name = 'repository_name_example' # str | Name of the repository to disable Repository Health Check for
 
     try:
@@ -728,14 +728,14 @@ Enable Repository Health Check. Proxy repositories only.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
     repository_name = 'repository_name_example' # str | Name of the repository to enable Repository Health Check for
 
     try:
@@ -785,14 +785,14 @@ List repositories
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
     
     try:
         # List repositories
@@ -836,14 +836,14 @@ Invalidate repository cache. Proxy or group repositories only.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
     repository_name = 'repository_name_example' # str | Name of the repository to invalidate cache
 
     try:
@@ -893,14 +893,14 @@ Schedule a 'Repair - Rebuild repository search' Task. Hosted or proxy repositori
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
     repository_name = 'repository_name_example' # str | Name of the repository to rebuild index
 
     try:
@@ -950,16 +950,16 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
     repository_name = 'repository_name_example' # str | 
-body = openapi_client.AptHostedRepositoryApiRequest() # AptHostedRepositoryApiRequest |  (optional)
+body = nexus_api_python_client.AptHostedRepositoryApiRequest() # AptHostedRepositoryApiRequest |  (optional)
 
     try:
         api_instance.update_repository1(repository_name, body=body)
@@ -1004,16 +1004,16 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
     repository_name = 'repository_name_example' # str | 
-body = openapi_client.DockerHostedRepositoryApiRequest() # DockerHostedRepositoryApiRequest |  (optional)
+body = nexus_api_python_client.DockerHostedRepositoryApiRequest() # DockerHostedRepositoryApiRequest |  (optional)
 
     try:
         api_instance.update_repository10(repository_name, body=body)
@@ -1058,16 +1058,16 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
     repository_name = 'repository_name_example' # str | 
-body = openapi_client.GitLfsHostedRepositoryApiRequest() # GitLfsHostedRepositoryApiRequest |  (optional)
+body = nexus_api_python_client.GitLfsHostedRepositoryApiRequest() # GitLfsHostedRepositoryApiRequest |  (optional)
 
     try:
         api_instance.update_repository11(repository_name, body=body)
@@ -1112,16 +1112,16 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
     repository_name = 'repository_name_example' # str | 
-body = openapi_client.AptProxyRepositoryApiRequest() # AptProxyRepositoryApiRequest |  (optional)
+body = nexus_api_python_client.AptProxyRepositoryApiRequest() # AptProxyRepositoryApiRequest |  (optional)
 
     try:
         api_instance.update_repository2(repository_name, body=body)
@@ -1166,16 +1166,16 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
     repository_name = 'repository_name_example' # str | 
-body = openapi_client.GolangGroupRepositoryApiRequest() # GolangGroupRepositoryApiRequest |  (optional)
+body = nexus_api_python_client.GolangGroupRepositoryApiRequest() # GolangGroupRepositoryApiRequest |  (optional)
 
     try:
         api_instance.update_repository3(repository_name, body=body)
@@ -1220,16 +1220,16 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
     repository_name = 'repository_name_example' # str | 
-body = openapi_client.GolangProxyRepositoryApiRequest() # GolangProxyRepositoryApiRequest |  (optional)
+body = nexus_api_python_client.GolangProxyRepositoryApiRequest() # GolangProxyRepositoryApiRequest |  (optional)
 
     try:
         api_instance.update_repository4(repository_name, body=body)
@@ -1274,16 +1274,16 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
     repository_name = 'repository_name_example' # str | 
-body = openapi_client.BowerGroupRepositoryApiRequest() # BowerGroupRepositoryApiRequest |  (optional)
+body = nexus_api_python_client.BowerGroupRepositoryApiRequest() # BowerGroupRepositoryApiRequest |  (optional)
 
     try:
         api_instance.update_repository5(repository_name, body=body)
@@ -1328,16 +1328,16 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
     repository_name = 'repository_name_example' # str | 
-body = openapi_client.BowerProxyRepositoryApiRequest() # BowerProxyRepositoryApiRequest |  (optional)
+body = nexus_api_python_client.BowerProxyRepositoryApiRequest() # BowerProxyRepositoryApiRequest |  (optional)
 
     try:
         api_instance.update_repository6(repository_name, body=body)
@@ -1382,16 +1382,16 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
     repository_name = 'repository_name_example' # str | 
-body = openapi_client.BowerHostedRepositoryApiRequest() # BowerHostedRepositoryApiRequest |  (optional)
+body = nexus_api_python_client.BowerHostedRepositoryApiRequest() # BowerHostedRepositoryApiRequest |  (optional)
 
     try:
         api_instance.update_repository7(repository_name, body=body)
@@ -1436,16 +1436,16 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
     repository_name = 'repository_name_example' # str | 
-body = openapi_client.DockerGroupRepositoryApiRequest() # DockerGroupRepositoryApiRequest |  (optional)
+body = nexus_api_python_client.DockerGroupRepositoryApiRequest() # DockerGroupRepositoryApiRequest |  (optional)
 
     try:
         api_instance.update_repository8(repository_name, body=body)
@@ -1490,16 +1490,16 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RepositoryManagementApi(api_client)
+    api_instance = nexus_api_python_client.RepositoryManagementApi(api_client)
     repository_name = 'repository_name_example' # str | 
-body = openapi_client.DockerProxyRepositoryApiRequest() # DockerProxyRepositoryApiRequest |  (optional)
+body = nexus_api_python_client.DockerProxyRepositoryApiRequest() # DockerProxyRepositoryApiRequest |  (optional)
 
     try:
         api_instance.update_repository9(repository_name, body=body)

@@ -1,4 +1,4 @@
-# openapi_client.EmailApi
+# nexus_api_python_client.EmailApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -20,14 +20,14 @@ Disable and clear the email configuration
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.EmailApi(api_client)
+    api_instance = nexus_api_python_client.EmailApi(api_client)
     
     try:
         # Disable and clear the email configuration
@@ -69,14 +69,14 @@ Retrieve the current email configuration
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.EmailApi(api_client)
+    api_instance = nexus_api_python_client.EmailApi(api_client)
     
     try:
         # Retrieve the current email configuration
@@ -120,15 +120,15 @@ Set the current email configuration
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.EmailApi(api_client)
-    body = openapi_client.ApiEmailConfiguration() # ApiEmailConfiguration | 
+    api_instance = nexus_api_python_client.EmailApi(api_client)
+    body = nexus_api_python_client.ApiEmailConfiguration() # ApiEmailConfiguration | 
 
     try:
         # Set the current email configuration
@@ -175,14 +175,14 @@ Send a test email to the email address provided in the request body
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.EmailApi(api_client)
+    api_instance = nexus_api_python_client.EmailApi(api_client)
     body = 'body_example' # str | An email address to send a test email to
 
     try:

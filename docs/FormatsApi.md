@@ -1,4 +1,4 @@
-# openapi_client.FormatsApi
+# nexus_api_python_client.FormatsApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -18,14 +18,14 @@ Get upload field requirements for the desired format
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.FormatsApi(api_client)
+    api_instance = nexus_api_python_client.FormatsApi(api_client)
     format = 'format_example' # str | The desired repository format
 
     try:
@@ -72,14 +72,14 @@ Get upload field requirements for each supported format
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.FormatsApi(api_client)
+    api_instance = nexus_api_python_client.FormatsApi(api_client)
     
     try:
         # Get upload field requirements for each supported format

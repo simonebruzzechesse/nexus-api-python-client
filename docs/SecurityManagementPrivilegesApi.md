@@ -1,4 +1,4 @@
-# openapi_client.SecurityManagementPrivilegesApi
+# nexus_api_python_client.SecurityManagementPrivilegesApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -31,15 +31,15 @@ Create an application type privilege.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementPrivilegesApi(api_client)
-    body = openapi_client.ApiPrivilegeApplicationRequest() # ApiPrivilegeApplicationRequest | The privilege to create. (optional)
+    api_instance = nexus_api_python_client.SecurityManagementPrivilegesApi(api_client)
+    body = nexus_api_python_client.ApiPrivilegeApplicationRequest() # ApiPrivilegeApplicationRequest | The privilege to create. (optional)
 
     try:
         # Create an application type privilege.
@@ -85,15 +85,15 @@ Create a wildcard type privilege.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementPrivilegesApi(api_client)
-    body = openapi_client.ApiPrivilegeWildcardRequest() # ApiPrivilegeWildcardRequest | The privilege to create. (optional)
+    api_instance = nexus_api_python_client.SecurityManagementPrivilegesApi(api_client)
+    body = nexus_api_python_client.ApiPrivilegeWildcardRequest() # ApiPrivilegeWildcardRequest | The privilege to create. (optional)
 
     try:
         # Create a wildcard type privilege.
@@ -139,15 +139,15 @@ Create a repository content selector type privilege.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementPrivilegesApi(api_client)
-    body = openapi_client.ApiPrivilegeRepositoryContentSelectorRequest() # ApiPrivilegeRepositoryContentSelectorRequest | The privilege to create. (optional)
+    api_instance = nexus_api_python_client.SecurityManagementPrivilegesApi(api_client)
+    body = nexus_api_python_client.ApiPrivilegeRepositoryContentSelectorRequest() # ApiPrivilegeRepositoryContentSelectorRequest | The privilege to create. (optional)
 
     try:
         # Create a repository content selector type privilege.
@@ -193,15 +193,15 @@ Create a repository admin type privilege.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementPrivilegesApi(api_client)
-    body = openapi_client.ApiPrivilegeRepositoryAdminRequest() # ApiPrivilegeRepositoryAdminRequest | The privilege to create. (optional)
+    api_instance = nexus_api_python_client.SecurityManagementPrivilegesApi(api_client)
+    body = nexus_api_python_client.ApiPrivilegeRepositoryAdminRequest() # ApiPrivilegeRepositoryAdminRequest | The privilege to create. (optional)
 
     try:
         # Create a repository admin type privilege.
@@ -247,15 +247,15 @@ Create a repository view type privilege.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementPrivilegesApi(api_client)
-    body = openapi_client.ApiPrivilegeRepositoryViewRequest() # ApiPrivilegeRepositoryViewRequest | The privilege to create. (optional)
+    api_instance = nexus_api_python_client.SecurityManagementPrivilegesApi(api_client)
+    body = nexus_api_python_client.ApiPrivilegeRepositoryViewRequest() # ApiPrivilegeRepositoryViewRequest | The privilege to create. (optional)
 
     try:
         # Create a repository view type privilege.
@@ -301,15 +301,15 @@ Create a script type privilege.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementPrivilegesApi(api_client)
-    body = openapi_client.ApiPrivilegeScriptRequest() # ApiPrivilegeScriptRequest | The privilege to create. (optional)
+    api_instance = nexus_api_python_client.SecurityManagementPrivilegesApi(api_client)
+    body = nexus_api_python_client.ApiPrivilegeScriptRequest() # ApiPrivilegeScriptRequest | The privilege to create. (optional)
 
     try:
         # Create a script type privilege.
@@ -355,14 +355,14 @@ Delete a privilege by id.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementPrivilegesApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementPrivilegesApi(api_client)
     privilege_id = 'privilege_id_example' # str | The id of the privilege to delete.
 
     try:
@@ -410,14 +410,14 @@ Retrieve a privilege by id.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementPrivilegesApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementPrivilegesApi(api_client)
     privilege_id = 'privilege_id_example' # str | The id of the privilege to retrieve.
 
     try:
@@ -466,14 +466,14 @@ Retrieve a list of privileges.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementPrivilegesApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementPrivilegesApi(api_client)
     
     try:
         # Retrieve a list of privileges.
@@ -517,16 +517,16 @@ Update a wildcard type privilege.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementPrivilegesApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementPrivilegesApi(api_client)
     privilege_id = 'privilege_id_example' # str | The id of the privilege to update.
-body = openapi_client.ApiPrivilegeWildcardRequest() # ApiPrivilegeWildcardRequest | The privilege to update. (optional)
+body = nexus_api_python_client.ApiPrivilegeWildcardRequest() # ApiPrivilegeWildcardRequest | The privilege to update. (optional)
 
     try:
         # Update a wildcard type privilege.
@@ -574,16 +574,16 @@ Update an application type privilege.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementPrivilegesApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementPrivilegesApi(api_client)
     privilege_id = 'privilege_id_example' # str | The id of the privilege to update.
-body = openapi_client.ApiPrivilegeApplicationRequest() # ApiPrivilegeApplicationRequest | The privilege to update. (optional)
+body = nexus_api_python_client.ApiPrivilegeApplicationRequest() # ApiPrivilegeApplicationRequest | The privilege to update. (optional)
 
     try:
         # Update an application type privilege.
@@ -631,16 +631,16 @@ Update a repository view type privilege.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementPrivilegesApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementPrivilegesApi(api_client)
     privilege_id = 'privilege_id_example' # str | The id of the privilege to update.
-body = openapi_client.ApiPrivilegeRepositoryViewRequest() # ApiPrivilegeRepositoryViewRequest | The privilege to update. (optional)
+body = nexus_api_python_client.ApiPrivilegeRepositoryViewRequest() # ApiPrivilegeRepositoryViewRequest | The privilege to update. (optional)
 
     try:
         # Update a repository view type privilege.
@@ -688,16 +688,16 @@ Update a repository content selector type privilege.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementPrivilegesApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementPrivilegesApi(api_client)
     privilege_id = 'privilege_id_example' # str | The id of the privilege to update.
-body = openapi_client.ApiPrivilegeRepositoryContentSelectorRequest() # ApiPrivilegeRepositoryContentSelectorRequest | The privilege to update. (optional)
+body = nexus_api_python_client.ApiPrivilegeRepositoryContentSelectorRequest() # ApiPrivilegeRepositoryContentSelectorRequest | The privilege to update. (optional)
 
     try:
         # Update a repository content selector type privilege.
@@ -745,16 +745,16 @@ Update a repository admin type privilege.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementPrivilegesApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementPrivilegesApi(api_client)
     privilege_id = 'privilege_id_example' # str | The id of the privilege to update.
-body = openapi_client.ApiPrivilegeRepositoryAdminRequest() # ApiPrivilegeRepositoryAdminRequest | The privilege to update. (optional)
+body = nexus_api_python_client.ApiPrivilegeRepositoryAdminRequest() # ApiPrivilegeRepositoryAdminRequest | The privilege to update. (optional)
 
     try:
         # Update a repository admin type privilege.
@@ -802,16 +802,16 @@ Update a script type privilege.
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SecurityManagementPrivilegesApi(api_client)
+    api_instance = nexus_api_python_client.SecurityManagementPrivilegesApi(api_client)
     privilege_id = 'privilege_id_example' # str | The id of the privilege to update.
-body = openapi_client.ApiPrivilegeScriptRequest() # ApiPrivilegeScriptRequest | The privilege to update. (optional)
+body = nexus_api_python_client.ApiPrivilegeScriptRequest() # ApiPrivilegeScriptRequest | The privilege to update. (optional)
 
     try:
         # Update a script type privilege.

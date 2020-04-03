@@ -1,4 +1,4 @@
-# openapi_client.ScriptApi
+# nexus_api_python_client.ScriptApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -22,15 +22,15 @@ Add a new script
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ScriptApi(api_client)
-    body = openapi_client.ScriptXO() # ScriptXO |  (optional)
+    api_instance = nexus_api_python_client.ScriptApi(api_client)
+    body = nexus_api_python_client.ScriptXO() # ScriptXO |  (optional)
 
     try:
         # Add a new script
@@ -75,14 +75,14 @@ List all stored scripts
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ScriptApi(api_client)
+    api_instance = nexus_api_python_client.ScriptApi(api_client)
     
     try:
         # List all stored scripts
@@ -125,14 +125,14 @@ Delete stored script by name
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ScriptApi(api_client)
+    api_instance = nexus_api_python_client.ScriptApi(api_client)
     name = 'name_example' # str | 
 
     try:
@@ -179,16 +179,16 @@ Update stored script by name
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ScriptApi(api_client)
+    api_instance = nexus_api_python_client.ScriptApi(api_client)
     name = 'name_example' # str | 
-body = openapi_client.ScriptXO() # ScriptXO |  (optional)
+body = nexus_api_python_client.ScriptXO() # ScriptXO |  (optional)
 
     try:
         # Update stored script by name
@@ -235,14 +235,14 @@ Read stored script by name
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ScriptApi(api_client)
+    api_instance = nexus_api_python_client.ScriptApi(api_client)
     name = 'name_example' # str | 
 
     try:
@@ -290,14 +290,14 @@ Run stored script by name
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ScriptApi(api_client)
+    api_instance = nexus_api_python_client.ScriptApi(api_client)
     name = 'name_example' # str | 
 body = 'body_example' # str |  (optional)
 

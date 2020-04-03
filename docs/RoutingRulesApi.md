@@ -1,4 +1,4 @@
-# openapi_client.RoutingRulesApi
+# nexus_api_python_client.RoutingRulesApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -21,15 +21,15 @@ Create a single routing rule
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RoutingRulesApi(api_client)
-    body = openapi_client.RoutingRuleXO() # RoutingRuleXO | A routing rule configuration
+    api_instance = nexus_api_python_client.RoutingRulesApi(api_client)
+    body = nexus_api_python_client.RoutingRuleXO() # RoutingRuleXO | A routing rule configuration
 
     try:
         # Create a single routing rule
@@ -76,14 +76,14 @@ Delete a single routing rule
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RoutingRulesApi(api_client)
+    api_instance = nexus_api_python_client.RoutingRulesApi(api_client)
     name = 'name_example' # str | The name of the routing rule to delete
 
     try:
@@ -131,14 +131,14 @@ Get a single routing rule
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RoutingRulesApi(api_client)
+    api_instance = nexus_api_python_client.RoutingRulesApi(api_client)
     name = 'name_example' # str | The name of the routing rule to get
 
     try:
@@ -187,14 +187,14 @@ List routing rules
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RoutingRulesApi(api_client)
+    api_instance = nexus_api_python_client.RoutingRulesApi(api_client)
     
     try:
         # List routing rules
@@ -238,16 +238,16 @@ Update a single routing rule
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.RoutingRulesApi(api_client)
+    api_instance = nexus_api_python_client.RoutingRulesApi(api_client)
     name = 'name_example' # str | The name of the routing rule to update
-body = openapi_client.RoutingRuleXO() # RoutingRuleXO | A routing rule configuration
+body = nexus_api_python_client.RoutingRuleXO() # RoutingRuleXO | A routing rule configuration
 
     try:
         # Update a single routing rule

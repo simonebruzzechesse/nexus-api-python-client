@@ -1,4 +1,4 @@
-# openapi_client.StatusApi
+# nexus_api_python_client.StatusApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -19,14 +19,14 @@ Health check endpoint that returns the results of the system status checks
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.StatusApi(api_client)
+    api_instance = nexus_api_python_client.StatusApi(api_client)
     
     try:
         # Health check endpoint that returns the results of the system status checks
@@ -68,14 +68,14 @@ Health check endpoint that validates server can respond to read requests
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.StatusApi(api_client)
+    api_instance = nexus_api_python_client.StatusApi(api_client)
     
     try:
         # Health check endpoint that validates server can respond to read requests
@@ -118,14 +118,14 @@ Health check endpoint that validates server can respond to read and write reques
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.StatusApi(api_client)
+    api_instance = nexus_api_python_client.StatusApi(api_client)
     
     try:
         # Health check endpoint that validates server can respond to read and write requests

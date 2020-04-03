@@ -1,4 +1,4 @@
-# openapi_client.LifecycleApi
+# nexus_api_python_client.LifecycleApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -21,14 +21,14 @@ Re-runs all phases from the given phase to the current phase
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.LifecycleApi(api_client)
+    api_instance = nexus_api_python_client.LifecycleApi(api_client)
     body = 'body_example' # str | The phase to bounce (optional)
 
     try:
@@ -74,14 +74,14 @@ Get current lifecycle phase
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.LifecycleApi(api_client)
+    api_instance = nexus_api_python_client.LifecycleApi(api_client)
     
     try:
         # Get current lifecycle phase
@@ -124,14 +124,14 @@ Move to new lifecycle phase
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.LifecycleApi(api_client)
+    api_instance = nexus_api_python_client.LifecycleApi(api_client)
     body = 'body_example' # str | The phase to move to (optional)
 
     try:

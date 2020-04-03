@@ -1,4 +1,4 @@
-# openapi_client.ManageIQServerConfigurationApi
+# nexus_api_python_client.ManageIQServerConfigurationApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -21,14 +21,14 @@ Disable IQ Server
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ManageIQServerConfigurationApi(api_client)
+    api_instance = nexus_api_python_client.ManageIQServerConfigurationApi(api_client)
     
     try:
         # Disable IQ Server
@@ -71,14 +71,14 @@ Enable IQ Server
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ManageIQServerConfigurationApi(api_client)
+    api_instance = nexus_api_python_client.ManageIQServerConfigurationApi(api_client)
     
     try:
         # Enable IQ Server
@@ -121,14 +121,14 @@ Get IQ Server configuration
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ManageIQServerConfigurationApi(api_client)
+    api_instance = nexus_api_python_client.ManageIQServerConfigurationApi(api_client)
     
     try:
         # Get IQ Server configuration
@@ -170,15 +170,15 @@ Update IQ Server configuration
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ManageIQServerConfigurationApi(api_client)
-    body = openapi_client.IqConnectionXo() # IqConnectionXo |  (optional)
+    api_instance = nexus_api_python_client.ManageIQServerConfigurationApi(api_client)
+    body = nexus_api_python_client.IqConnectionXo() # IqConnectionXo |  (optional)
 
     try:
         # Update IQ Server configuration
@@ -223,14 +223,14 @@ Verify IQ Server connection
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ManageIQServerConfigurationApi(api_client)
+    api_instance = nexus_api_python_client.ManageIQServerConfigurationApi(api_client)
     
     try:
         # Verify IQ Server connection

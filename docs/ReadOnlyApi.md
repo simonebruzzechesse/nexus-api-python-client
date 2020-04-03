@@ -1,4 +1,4 @@
-# openapi_client.ReadOnlyApi
+# nexus_api_python_client.ReadOnlyApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -22,14 +22,14 @@ Forcibly release read-only status, including System initiated tasks. Warning: ma
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ReadOnlyApi(api_client)
+    api_instance = nexus_api_python_client.ReadOnlyApi(api_client)
     
     try:
         # Forcibly release read-only
@@ -73,14 +73,14 @@ Enable read-only
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ReadOnlyApi(api_client)
+    api_instance = nexus_api_python_client.ReadOnlyApi(api_client)
     
     try:
         # Enable read-only
@@ -124,14 +124,14 @@ Get read-only state
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ReadOnlyApi(api_client)
+    api_instance = nexus_api_python_client.ReadOnlyApi(api_client)
     
     try:
         # Get read-only state
@@ -176,14 +176,14 @@ Release administrator initiated read-only status. Will not release read-only cau
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ReadOnlyApi(api_client)
+    api_instance = nexus_api_python_client.ReadOnlyApi(api_client)
     
     try:
         # Release read-only

@@ -1,4 +1,4 @@
-# openapi_client.ContentSelectorsApi
+# nexus_api_python_client.ContentSelectorsApi
 
 All URIs are relative to *http://localhost/service/rest*
 
@@ -21,15 +21,15 @@ Create a new content selector
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ContentSelectorsApi(api_client)
-    body = openapi_client.ContentSelectorApiCreateRequest() # ContentSelectorApiCreateRequest |  (optional)
+    api_instance = nexus_api_python_client.ContentSelectorsApi(api_client)
+    body = nexus_api_python_client.ContentSelectorApiCreateRequest() # ContentSelectorApiCreateRequest |  (optional)
 
     try:
         # Create a new content selector
@@ -76,14 +76,14 @@ Delete a content selector
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ContentSelectorsApi(api_client)
+    api_instance = nexus_api_python_client.ContentSelectorsApi(api_client)
     name = 'name_example' # str | 
 
     try:
@@ -131,14 +131,14 @@ Get a content selector by id
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ContentSelectorsApi(api_client)
+    api_instance = nexus_api_python_client.ContentSelectorsApi(api_client)
     name = 'name_example' # str | The content selector name
 
     try:
@@ -185,14 +185,14 @@ List Content Selectors
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ContentSelectorsApi(api_client)
+    api_instance = nexus_api_python_client.ContentSelectorsApi(api_client)
     
     try:
         # List Content Selectors
@@ -235,16 +235,16 @@ Update a content selector
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import nexus_api_python_client
+from nexus_api_python_client.rest import ApiException
 from pprint import pprint
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with nexus_api_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ContentSelectorsApi(api_client)
+    api_instance = nexus_api_python_client.ContentSelectorsApi(api_client)
     name = 'name_example' # str | The content selector name
-body = openapi_client.ContentSelectorApiUpdateRequest() # ContentSelectorApiUpdateRequest |  (optional)
+body = nexus_api_python_client.ContentSelectorApiUpdateRequest() # ContentSelectorApiUpdateRequest |  (optional)
 
     try:
         # Update a content selector
