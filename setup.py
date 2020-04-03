@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 NAME = "nexus-api-python-client"
-VERSION = "1.0.2"
+VERSION = "1.0.3"
 
 REQUIRES = ["urllib3 >= 1.15", "six >= 1.10", "certifi", "python-dateutil"]
 
