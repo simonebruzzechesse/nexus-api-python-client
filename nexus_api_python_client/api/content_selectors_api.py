@@ -94,7 +94,7 @@ class ContentSelectorsApi(object):
             response_type='str',  # noqa: E501
             auth_settings=auth_settings,
             async_req=local_var_params.get('async_req'),
-            _return_http_data_only=True,  # noqa: E501
+            _return_http_data_only=False,  # noqa: E501
             _preload_content=False,
             _request_timeout=local_var_params.get('_request_timeout'),
             collection_formats=collection_formats)
